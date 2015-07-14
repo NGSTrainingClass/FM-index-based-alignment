@@ -20,6 +20,7 @@ Align程序要完成以下步骤：
 * data目录存放数据文件,其中Reads.fq为测序序列文件，Reference.fq为参考基因组文件, Result.sam为比对结果文件。
 * src目录存放源码文件, 我们的要求就是修改align.c和index.c。
 * Makefile用来编译,在终端输入:make命令就会自动编译。
+
 ##要求
 1. 在Linux系统环境下， 用Makefile组织工程, C编写程序。
 2. 生成SA和解析fasta、fastq文件可以用已有的库, 也可自己实现。
